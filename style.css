@@ -1,0 +1,464 @@
+
+:root {
+    --font-vibes: 'Great Vibes', cursive;
+    --font-mirza: 'Mirza', cursive;
+    --font-sans: 'Open Sans Condensed', sans-serif;
+    --font-normal: Arial, Helvetica, sans-serif;
+    --text-gold: #fce3ac;
+    --text-dark: #000000;
+    --text-white: #ffffff;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100vh;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.arabic {
+    font-size: 2.5rem;
+    color: var(--text-gold);
+    word-spacing: 4px;
+    font-family: var(--font-mirza);
+    margin-bottom: 0px;
+    margin-top: 8px;
+    padding-bottom: 0px;
+}
+
+.coverpage {
+    display: none;
+    padding: auto;
+    text-align: center;
+    background-color: grey;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 30px 12px 0 12px;
+    max-width: 100%;
+}
+
+.covertext{
+    margin: 5px 15px;
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgba(169, 150, 44);
+    text-shadow: 1px 1px 2px black;
+}
+
+.counttext {
+    line-height: 0.5;
+    padding: 0;
+    text-align: right;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    z-index: 2;
+}
+
+.countdown {
+    font-family: var(--font-vibes);
+    font-size: 3rem;
+    color: var(--text-gold);
+}
+
+.countboard {
+    margin: 20px 0;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    z-index: 2;
+    background-color: green;
+    word-spacing: 15px;
+}
+
+.countno {
+    padding: 5px;
+    color: var(--text-white);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.countind {
+    color: gold;
+    font-family: var(--font-normal);
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.countind>#day:before {
+    content: "D";
+}
+
+.countind>#hour:before {
+    content: "H";
+}
+
+.countind>#min:before {
+    content: "M";
+}
+
+.countind>#sec:before {
+    content: "S";
+}
+
+.countind>span {
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+.content {
+    z-index: 9999;
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    margin-left: 5px;
+    max-height: 100vh;
+    /* overflow-y: scroll; */
+}
+
+.content-translation {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.d-none {
+    display: none;
+}
+
+.dayshow {
+    box-shadow: 5px 3px 12px 5px rgb(140, 124, 38);       
+    background-color: gold;
+    border: 6px solid green;
+    border-radius: 100%;
+    padding: 10px 13px;
+    color: green;
+    font-size: 3.5rem;
+}
+.daytg{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    padding-left: 15px;
+}
+
+.inner {
+    padding: 0 15px 10px 15px;
+   margin-top: 10vh !important;
+   margin-bottom: 10vh !important;
+    text-align: center;
+    background-color: rgba(35, 107, 35, 0.803);
+    border: 4px inset gold;
+    border-radius: 15px;
+    box-shadow: 5px 3px 15px 0px rgba(0, 128, 0, 0.611);
+}
+
+.lantern{
+    text-align: right;
+}
+
+.lantern>img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.logo>img {
+    transform: scale(0.5);
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    z-index: 2;
+    opacity: 0.2;
+}
+
+.m-mos>img {
+    max-width: 100%;
+    /* position: absolute;
+    left: -20%; */
+    top: 0;
+    height: 96vh;
+    opacity: 0.4;
+}
+
+.d-mos>img {
+    display: none;
+}
+
+.notice{
+    font-size: 0.8rem;
+    color: white;
+    z-index: 9999;
+    padding: 5px 0 0 10px;
+    -webkit-animation:  0.5s linear 0s infinite alternate opacity;
+    animation: 1.3s linear 0s infinite alternate opacity;
+}
+
+a.org {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    background-color: var(--text-gold);
+    border-radius: 2rem;
+    padding: 5px 8px;
+    font-weight: 600;
+    font-family: var(--font-normal);
+    font-size: 0.7rem;
+}
+
+a.org{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text-dark);
+}
+
+a{
+    cursor: pointer !important;
+}
+
+.page-body {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    /* padding-right: 5%; */
+    margin: 0;
+    background: linear-gradient(120deg, #075757, 60%, #2f095a);
+}
+
+
+.ramadan {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    text-transform: uppercase;
+    color: var(--text-white);
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: right;
+}
+
+.ref {
+    font-family: var(--font-normal);
+    font-size: 0.8rem;
+}
+
+.showIt{
+    position: fixed;
+    z-index: 9999;
+}
+
+.starred{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    max-width: 100%;
+    z-index: -1 !important;
+}
+.starred>img {
+   max-width: 100%;
+   max-height: 100vh;
+   /* transform: scale(1.5); */
+}
+
+.sub{
+    background: linear-gradient(120deg, gold, 60%, rgb(157, 137, 28));
+    color: rgb(21, 131, 48);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.transliteration {
+    font-size: 1.1rem;
+    font-family: var(--font-normal);
+    line-height: 1.15;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+.translation {
+    font-size: 1.1rem;
+    line-height: 1.15;
+    font-family: var(--font-normal);
+}
+
+
+@-webkit-keyframes opacity{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes opacity{
+    from{
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        overflow: hidden;
+    }
+    .arabic {
+        word-spacing: 7px;
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    .counttext {
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 20%;
+    }
+
+    .countdown {
+        font-size: 3.5rem;
+    }
+
+    .countboard {
+        top: 05%;
+        left: 50%;
+    }
+
+    .countno {
+        font-size: 3rem;
+    }
+
+    .countind {
+        padding: 10px 0;
+        font-size: 1.3rem;
+    }
+
+    .countind>#day:before {
+        content: "Days";
+    }
+
+    .countind>#hour:before {
+        content: "Hours";
+    }
+
+    .countind>#min:before {
+        content: "Minutes";
+    }
+
+    .countind>#sec:before {
+        content: "Seconds";
+    }
+
+    .countind>span {
+        width: 25%;
+    }
+
+    .content {
+        width: 80vw;
+        top: 25%;
+    }
+
+    .content-translation {
+        padding-top: 5px;
+    }
+
+    .dayshow {
+       font-size: 5rem;
+    }
+
+    .daytg{
+        font-size: 1.4rem;
+    }
+
+    .lantern>img {
+        display: none;
+    }
+
+    .lantern>img {
+        display: block;
+        top: 0;
+        right: 0%;
+        opacity: 0.8;
+    }
+
+    .m-mos>img {
+        display: none;
+    }
+
+    .d-mos>img {
+        display: block;
+        opacity: 0.8;
+        max-width: 100%;
+        position: absolute;
+        left: -8px;
+        bottom: -10px;
+        height: 100vh;
+    }
+
+    .notice{
+        font-size: 1rem;    
+    }
+
+    a.org {
+        right: 10px;
+        border-radius: 2rem;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    a.org{
+        color: var(--text-white);
+    }
+
+    .ramadan{
+        font-size: 1.5rem;
+    }
+
+    .ref {
+        margin-top: 17px;
+        font-size: 1rem;
+    }
+
+    .sub{
+        font-size: 1.2rem;
+    }
+
+    .transliteration {
+        line-height: 1.5;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .translation {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+}
