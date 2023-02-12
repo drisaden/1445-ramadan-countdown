@@ -25,7 +25,7 @@ const contented = [
     },
     {
         id: 4,
-        sub:"",
+        sub:"Dua for acceptance of Deeds",
         arb: "رَبَنَّا تَقَبَّلْ مِنَّا  إِنّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
         translt: "Rabbana taqabbal minna, innaka antas Sami'ul -Alim",
         mng: "Our Lord! Accept (this service) from us",
@@ -162,7 +162,7 @@ const contented = [
     },
     {
         id: 21,
-        sub: "Prayer to say to a family who invites you to break your fast with them",
+        sub: "What to say to a family when invited to break your fast with them",
         arb: "أَفْطَـرَ عِنْدَكُم الصّـائِمونَ وَأَكَلَ طَعامَـكُمُ الأبْـرار، وَصَلَّـتْ عَلَـيْكُمُ الملائِكَـة",
         translt: "'Aftaraa 'indakumus-soo'imuuna, wa akala to'aamakuml-aberoor, wasollat alaykumul-malaaikah",
         mng: "With you, those who are fasting have broken their fast, you have fed those who are righteous, and the angels recite their prayers upon you",
@@ -226,11 +226,11 @@ const contented = [
     },
     {
         id: 29,
-        sub: "Getting Ready for Ramadan 04",
+        sub: "Getting Ready for Ramadan 04 <br /> Reward for Reciting Qur'an",
         arb: "",
         translt: "",
-        mng: "May Allah let us witness the Month of Ramadan",
-        ref: ""
+        mng: "Whosoever recites only one ‘Ayat’ in Holy Ramadan, he will be awarded as if he had recited the full Qur’an in other months.",
+        ref: "Hadith"
     },
     {
         id: 30,
@@ -259,7 +259,7 @@ const contented = [
     {
         id: 33,
         sub: "Getting Ready for Ramadan 08",
-        arb: "عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَنْ قَامَ بِعَشْرِ آيَاتٍ لَمْ يُكْتَبْ مِنْ الْغَافِلِينَ وَمَنْ قَامَ بِمِائَةِ آيَةٍ كُتِبَ مِنْ الْقَانِتِينَ وَمَنْ قَامَ بِأَلْفِ آيَةٍ كُتِبَ مِنْ الْمُقَنْطِرِينَ      ",
+        arb: "",
         translt: "",
         mng: "Whoever stands to pray with ten verses will never be recorded among the negligent. Whoever stands with a hundred verses will recorded among those devoutly obedient to Allah. Whoever stands with a thousand verses will be recorded among those with tremendous rewards.”",
         ref: "(Sunan Abī Dāwūd 1398)"
@@ -290,11 +290,11 @@ const contented = [
     },
     {
         id: 37,
-        sub: "Reward for Reciting Qur'an",
-        arb: "",
-        translt: "",
-        mng: "Whosoever recites only one ‘Ayat’ in Holy Ramadan, he will be awarded as if he had recited the full Qur’an in other months.",
-        ref: "(Hadith)"
+        sub: "Dua for Forgiveness",
+        arb: "اللَّهُمَّ إِنَّكَ عَفُوٌ تُحِبُ الْعَفْوَ فَاعَفُ عَنِّي",
+        translt: "Allahumma innaka 'afuwwun, tuhibbul-'afwa, fa'fu 'anni",
+        mng: "O Allah, You are Most Forgiving, and You love forgiveness; so forgive me",
+        ref: "(At-Tirmidhi)"
     }
 ]
 
