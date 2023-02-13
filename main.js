@@ -188,7 +188,7 @@ const contented = [
         id: 24,
         sub: "Ramadan: A golden opportunity to let your soul flourish",
         arb: "إِنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ لِلنَّاسِ بِٱلْحَقِّ ۖ فَمَنِ ٱهْتَدَىٰ فَلِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ",
-        translt: "Inn a anzaln a AAalayka alkit a ba li l nn a si bi a l h aqqi famani ihtad a falinafsihi waman d alla fainnam a ya d illu AAalayh a wam a anta AAalayhim biwakeel in",
+        translt: "",
         mng: "‍We have sent the Scripture down to you with the Truth for people. Whoever follows the guidance does so for his own soul’s benefit…",
         ref: "(Quran. 39:41)"
     },
