@@ -222,7 +222,7 @@ body {
 
 a.org {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 5px;
     background-color: var(--text-gold);
     border-radius: 2rem;
