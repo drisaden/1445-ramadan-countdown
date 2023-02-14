@@ -12,7 +12,7 @@
 body {
     max-width: 100%;
     max-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -192,12 +192,18 @@ body {
     opacity: 0.2;
 }
 
+/* .m-mos>img {
+    max-width: 100%;
+    position: absolute;
+    left: -20%;
+    top: 0;
+    height: 96vh;
+    opacity: 0.4;
+} */
 .m-mos>img {
     max-width: 100%;
-    /* position: absolute;
-    left: -20%; */
-    top: 0;
-    height: 100vh;
+    position: absolute;
+    bottom: 0;
     opacity: 0.4;
 }
 
