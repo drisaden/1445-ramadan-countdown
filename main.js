@@ -101,7 +101,7 @@ const contented = [
         sub:"Dua for good Knowledge/ Provision/ Deeds",
         arb: "اللَّهُمَّ إِنِي أَسْأَلُكَ عِلْمًا نَافِعًا، وَ رِزْقًا طَيِّبًا، وَ عَمَلاً مُتَقَبَّلاً",
         translt: "Allahumma innee as'aluka 'ilman naafi'an, wa 'amalan",
-        mng: "In Your name Oh Allah, I live and I die",
+        mng: "O Allah! I ask You for knowledge that is of benefit, a good provision and deeds that will be accepted.",
         ref: "(Sahih al-Bukhari 6312)"
     },
     {
