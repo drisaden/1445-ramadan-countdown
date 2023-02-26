@@ -102,7 +102,7 @@ const contented = [
         arb: "اللَّهُمَّ إِنِي أَسْأَلُكَ عِلْمًا نَافِعًا، وَ رِزْقًا طَيِّبًا، وَ عَمَلاً مُتَقَبَّلاً",
         translt: "Allahumma innee as'aluka 'ilman naafi'an, wa 'amalan",
         mng: "O Allah! I ask You for knowledge that is of benefit, a good provision and deeds that will be accepted.",
-        ref: "(Sahih al-Bukhari 6312)"
+        ref: "(Sunan Ibn Majah 925)"
     },
     {
         id: 14,
